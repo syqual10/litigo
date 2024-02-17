@@ -1,0 +1,31 @@
+
+/* General & 'Reset' Stuff */
+
+ul.text li {
+  line-height: 1.4 ;
+}
+
+/* My addition to github theme */
+
+html, body, ul, li { margin:0; padding:0; }
+
+#sTree2 ul, #sTree2 li ul li {
+	list-style-type:none;
+	color:#072E58;
+	border:1px solid #ddd;
+}
+
+#sTree2 ul, #sTreePlus { padding:0; background-color:#f0f0f0; }
+
+#sTree2 li, #sTreePlus li, ul#sortableListsBase li {
+	padding-left:40px;
+	margin:5px; border:1px solid #ddd;
+	background-color:#0589FF;
+}
+
+#sTree2 li div {
+	padding:7px;
+	background-color:#fff;
+}
+
+#sTree2, #sTreePlus { margin:10px auto; }

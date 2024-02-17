@@ -1,0 +1,12 @@
+
+                                   
+  Command "cache" is not defined.  
+                                   
+  Did you mean one of these?       
+      cache:clear                  
+      cache:forget                 
+      cache:table                  
+      config:cache                 
+      route:cache                  
+                                   
+

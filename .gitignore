@@ -1,0 +1,9 @@
+.env
+/config/app.php
+/public/documentos
+/public/demonios
+/public/realtime/mymodule.js
+/vendor
+/public/juriArch
+/storage
+

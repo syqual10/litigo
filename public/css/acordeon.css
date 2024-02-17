@@ -1,0 +1,76 @@
+template_faq {
+	background: #edf3fe none repeat scroll 0 0;
+}
+.panel-group {
+	background: #fff none repeat scroll 0 0;
+	border-radius: 3px;
+	box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.04);
+	margin-bottom: 0;
+	padding: 10px;
+}
+#acordeon .panel {
+	border: medium none;
+	border-radius: 0;
+	box-shadow: none;
+	margin: 0 0 15px 10px;
+}
+#acordeon .panel-heading {
+	border-radius: 30px;
+	padding: 0;
+}
+#acordeon .panel-title a {
+	background: #2a3e4c none repeat scroll 0 0;
+	border: 1px solid transparent;
+	border-radius: 10px 10px 0px 30px;
+	-moz-border-radius: 10px 10px 0px 30px;
+	-webkit-border-radius: 10px 10px 0px 30px;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 5px 20px 5px 50px;
+	position: relative;
+	transition: all 0.3s ease 0s;
+}
+#acordeon .panel-title a.collapsed {
+	background: #efefef none repeat scroll 0 0;
+	border: 1px solid #ddd;
+	color: #333;
+}
+#acordeon .panel-title a::after, #acordeon .panel-title a.collapsed::after {
+	background: #21c2f8 none repeat scroll 0 0;
+	border: 1px solid transparent;
+	border-radius: 50%;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.58);
+	color: #fff;
+	content: "";
+	font-family: fontawesome;
+	font-size: 25px;
+	height: 40px;
+	left: -8px;
+	line-height: 40px;
+	position: absolute;
+	text-align: center;
+	top: -5px;
+	transition: all 0.3s ease 0s;
+	width: 40px;
+}
+#acordeon .panel-title a.collapsed::after {
+	background: #21c2f8  none repeat scroll 0 0;
+	border: 1px solid transparent;
+	box-shadow: none;
+	color: #fff;
+	content: "";
+}
+#acordeon .panel-body {
+	background: transparent none repeat scroll 0 0;
+	border-top: medium none;
+	padding: 20px 25px 10px 9px;
+	position: relative;
+	border: 1.4px solid #ddd;
+    border-top-style: none;
+}
+#acordeon .panel-body p {
+	border-left: 1px dashed #8c8c8c;
+	padding-left: 25px;
+}
